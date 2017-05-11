@@ -1,0 +1,25 @@
+{
+    "name": "yurybykov/array_orderby",
+    "description": "A PHP function to database-style order an array.",
+    "keywords": ["php", "array", "order"],
+    "homepage": "https://github.com/yurybykov/php_array_orderby",
+    "license": "Unlicense",
+    "authors": [
+        {"name": "Jimpoz", "email": "jimpoz@jimpoz.com"},
+        {"name": "Yury Bykov", "email": "y.bykov@just-systems.ru"}
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:yurybykov/php_array_orderby.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [
+            "src/array_orderby.php"
+        ]
+    }
+}
