@@ -1,5 +1,5 @@
 {
-    "name": "yurybykov/array_orderby",
+    "name": "yurybykov/array_order_by",
     "description": "A PHP function to database-style order an array.",
     "keywords": ["php", "array", "order"],
     "homepage": "https://github.com/yurybykov/php_array_orderby",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "files": [
-            "src/array_orderby.php"
+            "src/array_order_by.php"
         ]
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
-if (!function_exists('array_orderby')) {
-    function array_orderby()
+if (!function_exists('array_order_by')) {
+    function array_order_by()
     {
         $args = func_get_args();
         $data = array_shift($args);
