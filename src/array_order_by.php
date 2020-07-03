@@ -1,10 +1,8 @@
 <?php
 
 if (!function_exists('array_order_by')) {
-    function array_order_by()
+    function array_order_by(array $data, ...$args): array
     {
-        $args = func_get_args();
-        $data = array_shift($args);
         foreach ($args as $n => $field) {
             if (is_string($field)) {
                 $tmp = [];
@@ -15,6 +13,7 @@ if (!function_exists('array_order_by')) {
                 unset($tmp);
             }
         }
+        
         $args[] = &$data;
         call_user_func_array('array_multisort', $args);
         return array_pop($args);

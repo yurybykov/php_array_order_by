@@ -12,6 +12,7 @@ Normal install via Composer.
 Throw any array or object with the coordinates of the field you want to sort by:
 
 ```php
+$data = [];
 $data[] = array('volume' => 67, 'edition' => 2);
 $data[] = array('volume' => 86, 'edition' => 1);
 $data[] = array('volume' => 85, 'edition' => 6);
